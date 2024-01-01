@@ -5,7 +5,9 @@ This project implements a basic Paillier Encryption System, demonstrating the us
 
 Prerequisites
 Python 3.x
-phe library (pip install phe)
+phe library 
+bash
+```pip install phe```
 
 How to Use
 Run the Server Script:
@@ -13,9 +15,9 @@ Run the Server Script:
 Open a terminal and navigate to the directory containing the server script (server.py). Run the following command:
 
 bash
-'''
+```
 python server.py
-'''
+```
 The server will start listening for incoming connections.
 
 Run the Client Script:
@@ -23,7 +25,9 @@ Run the Client Script:
 Open a new terminal window and navigate to the directory containing the client script (client.py). Run the following command:
 
 bash
+```
 python client.py
+```
 A Tkinter GUI window will appear, allowing you to input a number, select an operation (addition or multiplication), and encrypt and send the data to the server.
 
 Enter Constants:
