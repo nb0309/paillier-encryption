@@ -13,7 +13,9 @@ Run the Server Script:
 Open a terminal and navigate to the directory containing the server script (server.py). Run the following command:
 
 bash
+'''
 python server.py
+'''
 The server will start listening for incoming connections.
 
 Run the Client Script:
